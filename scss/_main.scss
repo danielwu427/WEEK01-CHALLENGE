@@ -1,0 +1,81 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: $font-style;
+    line-height: $line-height;
+    
+}
+
+// 通用
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.info-title-style{
+    color:$primary-color;
+    font-size: $fs-sec-title;
+    border-bottom: 3px solid $primary-color;
+    margin-bottom: 16px;
+}
+.mb-2{
+    margin-bottom: 8px;
+}
+.mt-10{
+    margin-top: 40px;
+}
+.mt-20{
+    margin-top: 80px;
+}
+.mt-40{
+    margin-top: 160px;
+}
+.fs-6{
+    font-size: $fs-middle;
+}
+.time-style{
+    color:$color-grey;
+    font-style: italic;
+}
+.d-flex{
+    display: flex;
+}
+
+//Part
+header{ 
+    .container{
+        .name{
+            font-size:$fs-title;
+            letter-spacing: 0.12em;
+        }
+        .resume{
+            font-size: $fs-title;
+            text-align: right;
+            letter-spacing: 0.12em;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+.banner{
+    background-color: $color-lightgrey;
+    padding: 48px 0px;
+    .intro{
+        width: 50%;
+        font-size: $fs-large;
+        margin-left: auto;
+    }
+}
+.info{
+    width: 50%;
+}
+footer{
+    background-color: $color-black;
+    padding: 64px 0px;
+    ul{
+        justify-content: center;
+        gap: 40px;
+    }
+}

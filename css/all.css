@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Castoro", Serif;
+  line-height: 1.8;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.info-title-style {
+  color: #AE0000;
+  font-size: 40px;
+  border-bottom: 3px solid #AE0000;
+  margin-bottom: 16px;
+}
+
+.mb-2 {
+  margin-bottom: 8px;
+}
+
+.mt-10 {
+  margin-top: 40px;
+}
+
+.mt-20 {
+  margin-top: 80px;
+}
+
+.mt-40 {
+  margin-top: 160px;
+}
+
+.fs-6 {
+  font-size: 24px;
+}
+
+.time-style {
+  color: #949494;
+  font-style: italic;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container .name {
+  font-size: 128px;
+  letter-spacing: 0.12em;
+}
+header .container .resume {
+  font-size: 128px;
+  text-align: right;
+  letter-spacing: 0.12em;
+}
+header .container img {
+  display: block;
+  margin: 0 auto;
+}
+
+.banner {
+  background-color: #EFEFEF;
+  padding: 48px 0px;
+}
+.banner .intro {
+  width: 50%;
+  font-size: 32px;
+  margin-left: auto;
+}
+
+.info {
+  width: 50%;
+}
+
+footer {
+  background-color: #000000;
+  padding: 64px 0px;
+}
+footer ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+}/*# sourceMappingURL=all.css.map */
