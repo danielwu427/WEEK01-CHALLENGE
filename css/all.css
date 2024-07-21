@@ -96,6 +96,10 @@ body {
   margin-top: 160px;
 }
 
+.mr-10 {
+  margin-right: 40px;
+}
+
 .fs-6 {
   font-size: 24px;
 }
@@ -103,12 +107,6 @@ body {
 .time-style {
   color: #949494;
   font-style: italic;
-}
-
-.d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 header .container .name {
@@ -143,9 +141,12 @@ footer {
   background-color: #000000;
   padding: 64px 0px;
 }
-footer ul {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 40px;
+
+.social-list li {
+  display: inline-block;
+}
+
+.social-list {
+  text-align: center;
+  padding: 64px 0px;
 }/*# sourceMappingURL=all.css.map */

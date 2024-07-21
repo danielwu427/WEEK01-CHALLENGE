@@ -30,6 +30,9 @@ body{
 .mt-40{
     margin-top: 160px;
 }
+.mr-10{
+    margin-right: 40px;
+}
 .fs-6{
     font-size: $fs-middle;
 }
@@ -37,9 +40,7 @@ body{
     color:$color-grey;
     font-style: italic;
 }
-.d-flex{
-    display: flex;
-}
+
 
 //Part
 header{ 
@@ -74,8 +75,11 @@ header{
 footer{
     background-color: $color-black;
     padding: 64px 0px;
-    ul{
-        justify-content: center;
-        gap: 40px;
-    }
+}
+.social-list li{
+    display: inline-block;
+}
+.social-list{
+    text-align: center;
+    padding: 64px 0px;
 }
